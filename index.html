@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #content-container div {
+            opacity: 0;
+        }
+
+
+        #content-container div.show {
+            animation: fadeIn 3s forwards;
+            opacity: 1;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Enhanced Memory</h1>
+    <div id="content-container"></div>
+</body>
+</html>

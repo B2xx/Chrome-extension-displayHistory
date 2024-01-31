@@ -126,7 +126,6 @@ function buildVisitedUrlList(divName) {
     // urlArray.sort(function (a, b) {
     //   return urlToCount[b] - urlToCount[a];
     // });
-
     buildPopupDom(divName, urlArray.slice(0, 10));
   };
 }
